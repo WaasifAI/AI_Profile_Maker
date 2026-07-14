@@ -16,7 +16,7 @@ Generates structured public profiles using a multi-stage AI pipeline rather than
 - Logging & exception handling
 
 ## Live Demo
-[Add Streamlit Cloud link here once deployed]
+[https://ai-public-profile-maker.streamlit.app/]
 
 ## Architecture
 
