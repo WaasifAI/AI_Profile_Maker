@@ -10,7 +10,7 @@ def search_person(name: str, context: str, max_results: int = 8):
     query = (
     f"{name} {context} "
     "biography education career nationality "
-    "current city current country net worth recent news"
+    "current city current country net worth 2026 latest recent news"
 ).strip()
     logger.info(f"Searching Tavily for: {query}")
 
@@ -19,7 +19,8 @@ def search_person(name: str, context: str, max_results: int = 8):
             query=query,
             search_depth="advanced",
             max_results=max_results,
-            include_raw_content=True
+            include_raw_content=True,
+            days=365
         )
         results = response.get("results", [])
         logger.info(f"Tavily returned {len(results)} results")

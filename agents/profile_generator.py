@@ -67,7 +67,10 @@ Rules:
   disagreement in "missing_or_conflicting" including both values and which sources 
   they came from. If no clear consensus exists and a range isn't applicable, set the 
   main field to "Conflicting public reports" instead of guessing.
-- Do not invent or guess any information not present in the sources.
+- Do not invent or guess any information not present in the sources
+- Note that source content may not reflect the most recent developments; if a source 
+  appears dated (e.g. references old figures or past years as "current"), still report 
+  what it says but do not present it as necessarily up to date.
 
 SOURCES:
 {sources_text}
